@@ -1,4 +1,4 @@
-package graphalgorithmen;
+package lk2021graphalgosv2;
 /**
  * <p>
  * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2017.

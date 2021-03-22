@@ -1,4 +1,4 @@
-package graphalgorithmen; 
+package lk2021graphalgosv2;
 
 /**
  * <p>
@@ -156,8 +156,19 @@ public class Graph{
       this.getEdge(vertexPair[0], vertexPair[1]) == null && 
       vertexPair[0] != vertexPair[1]){
         //Kante einfuegen.
+        Edge e = new Edge(vertexPair[0], vertexPair[1], pEdge.getWeight()); ///DAS WAR ICH!
         edges.append(pEdge); 
+        edges.append(e); ///DAS WAR ICH AUCH...1
       }
+    }
+  }
+  
+  public void resetMarks(){
+    vertices.toFirst();
+    while (vertices.hasAccess()){ // BY INGE INTERNATIONAl developement inc
+      vertices.getContent().setMark(false);
+      vertices.next();
+      //System.out.println("herlo");
     }
   }
   
