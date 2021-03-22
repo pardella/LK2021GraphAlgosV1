@@ -68,10 +68,10 @@ public class GraphAlgorithmenBREIT {
         
         
         
-       // breit(R1, g);
+        breit(R1, g);
         
-        if(breitsuch(R1, g, R8))
-            System.out.println("JA");
+        //if(breitsuch(R1, g, R8))
+        //    System.out.println("JA");
 
         
     }
