@@ -156,7 +156,7 @@ public class Graph{
       this.getEdge(vertexPair[0], vertexPair[1]) == null && 
       vertexPair[0] != vertexPair[1]){
         //Kante einfuegen.
-        Edge e = new Edge(vertexPair[0], vertexPair[1], pEdge.getWeight()); ///DAS WAR ICH!
+        Edge e = new Edge(vertexPair[1], vertexPair[0], pEdge.getWeight()); ///DAS WAR ICH!
         edges.append(pEdge); 
         edges.append(e); ///DAS WAR ICH AUCH...1
       }
